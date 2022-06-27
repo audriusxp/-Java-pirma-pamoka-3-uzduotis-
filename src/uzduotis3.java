@@ -21,27 +21,19 @@ public class uzduotis3 {
         System.out.println("krastinesIlgisC = " + c);
 
 
+        System.out.println("GalimasTrikampis(a, b, c) = " + galimasTrikampis(a, b, c));
 
     }
 
-    public static double GalimasTrikampis(double a, double b, double c) {
+    public static boolean galimasTrikampis(double a, double b, double c) {
         if (a + b > c) {
             if (b + c > a) {
                 if (c + a > b) {
                     System.out.println("true = " + true);
                 }
 
-
-
+            }
+        }
+        return false;
     }
 }
-
-
-
-
-
-
-
-
-
-
